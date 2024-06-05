@@ -9,9 +9,12 @@ def add_task(l):
 
 
 def view_task(l):
-    print("The tasks are : ")
-    for i in l:
-        print(i)
+    if len(l) > 0:
+        print("The tasks are : ")
+        for i in l:
+            print(i)
+    else:
+        print("Error !!! Please add the task")
 
 
 def update_task(l):
