@@ -2,7 +2,7 @@ import emoji
 
 
 def add_task(l):
-    n = int(input("Enter the no. : "))
+    n = int(input("Enter the No. of Tasks to be added : "))
     for i in range(n):
         name = input("Enter the Task : ")
         l.append(name)
