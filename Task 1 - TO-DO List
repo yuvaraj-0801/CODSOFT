@@ -48,7 +48,7 @@ def main():
 
         if ch == 1:
             add_task(l)
-            print("Task mola Added")
+            print("Task Added")
         elif ch == 2:
             view_task(l)
         elif ch == 3:
