@@ -24,7 +24,7 @@ def update_task(l):
     if n in l:
         l[i] = n1
     else:
-        print("Task not found...")
+        print("Task not found..")
 
 
 def delete_task(l):
